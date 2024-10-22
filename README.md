@@ -12,19 +12,21 @@ The US real estate market is heavily influenced by factors that determine rental
 - Compare the performance metrics, accuracy, and ease of use of both platforms.
 - Provide insights into which platform performs better for this specific classification problem.
 
-**Results Summary**
-- Python Implementation
-Accuracy: 45%
-Performance Metrics (Precision, Recall, F1-score): Highest scores in the medium segment.
-Confusion Matrix: The model struggled the most with high-segment apartments, frequently misclassifying them as low or medium segments.
-Key Insights: The KNN model performed best in classifying the medium segment but had challenges distinguishing between high and low segments.
+**Results Summary:**
 
-- R Implementation
-Accuracy: 46.15%
-95% Confidence Interval: 43.95% to 48.36%
-Performance Metrics (Sensitivity, Specificity): Moderate accuracy in the low segment; the model struggled with medium and high segments.
-Statistical Insights: The R model provided more detailed statistical insights, such as p-values and confidence intervals, indicating model reliability.
+1. Python implementation:
++ Accuracy: 45%
++ Performance Metrics (Precision, Recall, F1-score): Highest scores in the medium segment.
++ Confusion Matrix: The model struggled the most with high-segment apartments, frequently misclassifying them as low or medium segments.
++ Key Insights: The KNN model performed best in classifying the medium segment but had challenges distinguishing between high and low segments.
 
-**Comparison**
+2. R implementation:
++ Accuracy: 46.15%
++ 95% Confidence Interval: 43.95% to 48.36%
++ Performance Metrics (Sensitivity, Specificity): Moderate accuracy in the low segment; the model struggled with medium and high segments.
++ Statistical Insights: The R model provided more detailed statistical insights, such as p-values and confidence intervals, indicating model reliability.
+
+**Comparison:**
+
 Both models performed similarly in terms of accuracy, but the R model provided more detailed statistical insights, while the Python model offered smoother and more efficient implementation.
 Python excelled in ease of use and flexibility, while R offered better reliability and variability measures through statistical analysis.
